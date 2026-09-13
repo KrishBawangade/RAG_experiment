@@ -1,5 +1,25 @@
+# Environment variables / secrets
 .env
+.env.*
+!.env.example
+
+# Python virtual environment
 .venv/
 venv/
+env/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# RAG generated artifacts
+faiss.index
+metadata.pkl
+
+# Model/cache files
+.cache/
